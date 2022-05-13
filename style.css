@@ -1,4 +1,15 @@
 body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
+}
+
+header {
+  background-color: #181717;
+}
+header nav a {
+  color: #fff;
+  margin-right: 30px;
+}
+header .imgbox {
+  width: 50px;
 }/*# sourceMappingURL=style.css.map */
