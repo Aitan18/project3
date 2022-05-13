@@ -1,10 +1,12 @@
-#ourstudio .textbox h1, #ourstudio .textbox h3 {
-  color: #fff;
-}
-#ourstudio .textbox h1 {
+#ourstudio .box .textbox h1 {
   font-size: 30px;
-  margin: 50px 0 10px 0;
+  margin-top: 40px;
+  color: #201e1e;
 }
-#ourstudio .textbox h3 {
-  font-size: 50px;
+#ourstudio .box .textbox h3 {
+  font-size: 60px;
+  color: #272323;
+}
+#ourstudio .box .imgbox {
+  width: 150px;
 }/*# sourceMappingURL=ourstudio.css.map */
