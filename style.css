@@ -3,13 +3,18 @@ body {
   font-weight: 500;
 }
 
+.imgbox {
+  width: 100%;
+}
+
 header {
-  background-color: #181717;
+  background-color: #26282c;
+  padding: 30px;
 }
 header nav a {
   color: #fff;
-  margin-right: 30px;
+  margin-right: 36px;
 }
 header .imgbox {
-  width: 50px;
+  width: 150px;
 }/*# sourceMappingURL=style.css.map */
