@@ -50,17 +50,17 @@ header .imgbox {
   padding: 15px 35px;
 }
 
-#services .textbox h1, #services .textbox h3 {
+#services h1, #services h3 {
   color: #000000;
 }
-#services .textbox h1 {
+#services h1 {
   font-weight: 700;
   font-size: 38px;
 }
-#services .textbox h3 {
+#services h3 {
   font-size: 20px;
   color: #8d8989;
-  padding: 20px 0 65px 0;
+  margin: 26px 15px 72px 0;
 }
 #services .textbox h2 {
   font-weight: 700;
@@ -71,6 +71,7 @@ header .imgbox {
   font-size: 20px;
   color: #777070;
   line-height: 1.3;
+  margin-bottom: 140px;
 }
 #services .textbox ul li .icon {
   font-size: 60px;
@@ -79,4 +80,18 @@ header .imgbox {
   color: #fff;
   padding: 37px 17px;
   margin: 0 145px 18px 140px;
+}
+
+#portfolio {
+  background-color: #f0f6f7;
+  padding: 95px;
+}
+#portfolio h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+#portfolio h4 {
+  font-size: 20px;
+  color: #747171;
+  margin: 23px 0 65px 0;
 }/*# sourceMappingURL=style.css.map */
