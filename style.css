@@ -19,6 +19,21 @@ header .imgbox {
   width: 150px;
 }
 
+#ourstudio {
+  height: 1020px;
+}
+#ourstudio .imgbox {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#ourstudio .textbox {
+  margin-top: 130px;
+}
+#ourstudio .textbox h1, #ourstudio .textbox h3 {
+  color: #fff;
+}
 #ourstudio .textbox h1 {
   font-weight: 500;
   font-size: 40px;
@@ -26,12 +41,42 @@ header .imgbox {
 #ourstudio .textbox h3 {
   font-weight: 700;
   font-size: 60px;
-  margin-top: 20px;
+  margin: 28px 0 55px 0;
 }
 #ourstudio .textbox .btn {
   background-color: #ffd607;
   color: #fff;
+  font-size: 22px;
+  padding: 15px 35px;
+}
+
+#services .textbox h1, #services .textbox h3 {
+  color: #000000;
+}
+#services .textbox h1 {
+  font-weight: 700;
+  font-size: 38px;
+}
+#services .textbox h3 {
   font-size: 20px;
-  margin-top: 50px;
-  padding: 15px 36px;
+  color: #8d8989;
+  padding: 20px 0 65px 0;
+}
+#services .textbox h2 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+#services .textbox h4 {
+  font-size: 20px;
+  color: #777070;
+  line-height: 1.3;
+}
+#services .textbox ul li .icon {
+  font-size: 60px;
+  border-radius: 95px;
+  background-color: #ffd900;
+  color: #fff;
+  padding: 37px 17px;
+  margin: 0 145px 18px 140px;
 }/*# sourceMappingURL=style.css.map */
