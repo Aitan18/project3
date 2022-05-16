@@ -5,6 +5,7 @@ body {
 
 .imgbox img {
   width: 100%;
+  overflow: hidden;
 }
 
 header {
@@ -106,4 +107,45 @@ header .imgbox {
   font-size: 26px;
   color: #838080;
   margin: 14px 12px 60px 12px;
+}
+
+#about {
+  padding-top: 105px;
+}
+#about h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+#about h4 {
+  font-size: 20px;
+  color: #868383;
+  margin: 22px 0 90px 16px;
+}
+#about .textbox {
+  text-align: right;
+}
+#about .textbox h2, #about .textbox h3 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-right: 20px;
+}
+#about .textbox h6 {
+  font-size: 25px;
+  color: #9c9a9a;
+  margin: 20px 20px 20px 87px;
+  line-height: 1.4;
+}
+#about h5 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  background-color: #fcd00f;
+  border-radius: 150px;
+  padding: 33px 10px;
+  margin: 55px 142px 0 144px;
+}
+#about .imgbox {
+  width: 150px;
+  height: 235px;
+  margin: 30px 0 17px 18px;
 }/*# sourceMappingURL=style.css.map */
