@@ -145,4 +145,9 @@ header .imgbox {
 #about .imgbox {
   width: 150px;
   border-radius: 125px;
+}
+
+#team {
+  background-color: #c7f0ee;
+  padding: 30px;
 }/*# sourceMappingURL=style.css.map */
