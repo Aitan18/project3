@@ -168,11 +168,11 @@ header .imgbox {
 #team .textbox h3 {
   font-size: 20px;
   color: #999595;
-  padding-bottom: 20px;
-  margin-top: 13px;
+  margin: 10px 0 13px 0;
 }
 #team .textbox ul {
   display: flex;
+  justify-content: center;
 }
 #team .textbox ul li {
   background-color: #080808;
@@ -184,6 +184,12 @@ header .imgbox {
 }
 #team .textbox ul li .icon {
   margin: 12px;
+}
+#team h5 {
+  color: #858080;
+  font-size: 20px;
+  margin-top: 37px;
+  line-height: 1.2;
 }
 #team .imgbox {
   margin: 75px;
