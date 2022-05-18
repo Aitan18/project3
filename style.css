@@ -194,4 +194,50 @@ header .imgbox {
 #team .imgbox {
   margin: 75px;
   margin-bottom: 30px;
+}
+
+#soft .soft {
+  width: 185px;
+  margin: 78px;
+}
+#soft .google {
+  width: 160px;
+  margin: 67px;
+}
+#soft .facebook {
+  width: 175px;
+  margin: 73px;
+}
+#soft .ibm {
+  width: 124px;
+  margin: 73px;
+}
+
+#contact {
+  background-position: center;
+  background-size: cover;
+  height: 688px;
+  background-color: #242424;
+}
+#contact .textbox h1 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  margin: 20px;
+}
+#contact .textbox h3 {
+  color: #fff;
+  font-size: 15px;
+}
+#contact .add input {
+  border: 3px solid #991b1b;
+  width: 340px;
+  color: #807b7b;
+  font-size: 14px;
+  margin: 14px 0 10px 31px;
+  height: 50px;
+}
+#contact textarea {
+  width: 516px;
+  height: 225px;
 }/*# sourceMappingURL=style.css.map */
