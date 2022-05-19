@@ -216,7 +216,7 @@ header .imgbox {
 #contact {
   background-position: center;
   background-size: cover;
-  height: 688px;
+  height: 586px;
   background-color: #242424;
 }
 #contact .textbox h1 {
@@ -226,8 +226,12 @@ header .imgbox {
   margin: 20px;
 }
 #contact .textbox h3 {
-  color: #fff;
+  color: #777474;
   font-size: 15px;
+}
+#contact .imgbox {
+  width: 1330px;
+  height: 120px;
 }
 #contact .add input {
   border: 3px solid #991b1b;
@@ -240,4 +244,11 @@ header .imgbox {
 #contact textarea {
   width: 516px;
   height: 225px;
+}
+#contact .btn h2 {
+  background-color: #f8cd0b;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 45px;
 }/*# sourceMappingURL=style.css.map */
