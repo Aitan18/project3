@@ -8,12 +8,70 @@ body {
 }
 
 header {
-  background-color: #26282c;
-  padding: 30px;
+  background-color: #212529;
+  padding: 30px 0;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
 }
 header nav a {
   color: #fff;
-  margin-right: 36px;
+  margin-right: 23px;
+  font-size: 20px;
+}
+header :hover {
+  color: #ffc800;
+  cursor: pointer;
+}
+header .box {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 12px;
+  border-radius: 7px;
+}
+header .box h1 {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 25px;
+  margin-right: 10px;
+}
+header .box .icon {
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.55);
+}
+@media screen and (max-width: 1024px) {
+  header nav {
+    display: none;
+  }
+  header .box {
+    display: block;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header .box {
+    display: none;
+    position: absolute;
+    right: 0;
+    opacity: 0;
+  }
+  header .box h1, header .box .icon {
+    display: none;
+  }
+  header nav {
+    display: block;
+  }
+  header nav a {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 500px) {
+  header .imgbox {
+    width: 200px;
+  }
+  header .box {
+    padding: 5px;
+  }
+  header .box .icon, header .box h1 {
+    font-size: 18px;
+  }
 }
 header .imgbox {
   width: 150px;
