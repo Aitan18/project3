@@ -3,8 +3,15 @@ body {
   font-weight: 500;
 }
 
+.imgbox {
+  overflow: hidden;
+}
 .imgbox img {
   width: 100%;
+}
+
+section {
+  padding: 50px 0;
 }
 
 header {
@@ -13,6 +20,9 @@ header {
   z-index: 1;
   position: fixed;
   width: 100%;
+}
+header .imgbox {
+  width: 180px;
 }
 header nav a {
   color: #fff;
@@ -58,7 +68,7 @@ header .box .icon {
 }
 @media screen and (max-width: 500px) {
   header .imgbox {
-    width: 170px;
+    width: 160px;
   }
   header .box {
     padding: 6px;
@@ -72,34 +82,39 @@ header .box .icon {
   background-image: url("assets/header-bg.jpg");
   background-position: center;
   background-size: cover;
-  height: 1020px;
+  padding: 100px 0;
+  width: 100%;
 }
-#ourstudio .imgbox {
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  right: 0;
+#ourstudio .box {
+  height: 67vh;
 }
-#ourstudio .textbox {
-  margin-top: 31vh;
-}
-#ourstudio .textbox h1, #ourstudio .textbox h3 {
+#ourstudio .box .textbox h2, #ourstudio .box .textbox h1, #ourstudio .box .textbox h3 {
   color: #fff;
 }
-#ourstudio .textbox h1 {
+#ourstudio .box .textbox h2 {
   font-weight: 500;
   font-size: 40px;
 }
-#ourstudio .textbox h3 {
+#ourstudio .box .textbox h1 {
   font-weight: 700;
   font-size: 60px;
   margin: 28px 0 55px 0;
 }
-#ourstudio .textbox .btn {
+#ourstudio .box .textbox .btn {
   background-color: #ffd607;
-  color: #fff;
   font-size: 22px;
   padding: 15px 35px;
+}
+@media screen and (max-width: 400px) {
+  #ourstudio .box .textbox h2 {
+    font-size: 37px;
+  }
+  #ourstudio .box .textbox h1 {
+    font-size: 45px;
+  }
+  #ourstudio .box .textbox h3 {
+    font-size: 35px;
+  }
 }
 
 #services h1, #services h3 {
